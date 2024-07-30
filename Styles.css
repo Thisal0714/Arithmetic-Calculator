@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-image: url("https://4kwallpapers.com/images/wallpapers/macos-monterey-stock-orange-light-layers-5k-6016x6016-5894.jpg");
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+div{
+    padding: 125px 0;
+    text-align: center;  
+}
+div h1{
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+div hr{
+    margin: 14px 0;
+
+}
+div input[type=number]{
+    margin: 8px;
+    padding: 8px;
+    width: 100%;
+    font-size: 20px;
+}
+div input[type=text]:read-only{
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    margin: 8px;
+    padding: 8px;
+    
+
+}
+.operand{
+    margin: 8px;
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+label{
+    text-align: center;
+    padding-left: 15px;
+}
+button{
+    margin: 8px;
+    padding: 8px;
+    width: 100%;
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+button:hover{
+    color: white;
+    background-color: black;
+    
+}
